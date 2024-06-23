@@ -1,0 +1,102 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+  background-color: #000000;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+/* Top navigation styles */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+}
+
+.topnav h1 {
+  color: #fff;
+  margin: 0;
+}
+
+/* Content styles */
+.content {
+  padding: 20px;
+}
+
+/* Card grid styles */
+.card-grid {
+  display: flex;
+  flex-direction: column; /* Change to column layout for mobile */
+  align-items: center;
+}
+
+/* Card styles */
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Decreased padding for mobile */
+  width: 90%; /* Adjusted width for mobile */
+  max-width: 400px;
+  margin: 10px auto; /* Added margin for mobile */
+}
+
+.card p {
+  font-weight: bold; /* Changed from 'bolder' for consistency */
+  font-size: medium; /* Adjusted font size for mobile */
+}
+
+/* Form styles */
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Decreased margin for mobile */
+  font-size: medium; /* Adjusted font size for mobile */
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Decreased margin for mobile */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}

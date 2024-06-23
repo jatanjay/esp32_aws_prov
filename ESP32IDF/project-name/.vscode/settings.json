@@ -1,0 +1,26 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "C:\\Users\\jatan\\.espressif\\tools\\xtensa-esp-elf-gdb\\12.1_20231023\\xtensa-esp-elf-gdb\\bin;C:\\Users\\jatan\\.espressif\\tools\\riscv32-esp-elf-gdb\\12.1_20231023\\riscv32-esp-elf-gdb\\bin;C:\\Users\\jatan\\.espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20230928\\xtensa-esp-elf\\bin;C:\\Users\\jatan\\.espressif\\tools\\riscv32-esp-elf\\esp-13.2.0_20230928\\riscv32-esp-elf\\bin;C:\\Users\\jatan\\.espressif\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;C:\\Users\\jatan\\.espressif\\tools\\cmake\\3.24.0\\bin;C:\\Users\\jatan\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230921\\openocd-esp32\\bin;C:\\Users\\jatan\\.espressif\\tools\\ninja\\1.11.1;C:\\Users\\jatan\\.espressif\\tools\\idf-exe\\1.0.3;C:\\Users\\jatan\\.espressif\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;C:\\Users\\jatan\\.espressif\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;C:\\Users\\jatan\\.espressif\\tools\\esp-rom-elfs\\20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "C:\\Users\\jatan\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "C:\\Users\\jatan\\.espressif\\tools\\esp-rom-elfs\\20230320/"
+    },
+    "idf.espIdfPathWin": "C:\\Users\\jatan\\esp\\v5.2.2\\esp-idf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.portWin": "COM26",
+    "idf.pythonBinPathWin": "C:\\Users\\jatan\\.espressif\\python_env\\idf5.2_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "C:\\Users\\jatan\\.espressif",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "file_serving_example_common.h": "c",
+        "protocol_examples_common.h": "c",
+        "format": "c",
+        "esp_wifi.h": "c"
+    },
+    "cmake.sourceDirectory": "C:/Users/jatan/Documents/GitHub/turn_systems/ESP32Wifi/ESP32IDF/project-name/main"
+}

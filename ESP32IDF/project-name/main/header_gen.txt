@@ -1,0 +1,3 @@
+xxd -i logo.png > logo_png.h
+xxd -i styles.css > styles_css.h
+xxd -i wifimanager.html > wifi_manager.h

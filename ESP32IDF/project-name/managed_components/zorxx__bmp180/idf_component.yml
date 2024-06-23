@@ -1,0 +1,4 @@
+description: BMP180 Digital Pressure Sensor (temperature, barometric pressure, i2c)
+license: MIT
+url: https://github.com/zorxx/bmp180
+version: 1.0.0
